@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@media (max-width: 1000px){
+}
+
+body {
+	background-image: radial-gradient(circle at 0% 0%, #f4f7f7 0, #e0eeef 10%, #cae4e7 20%, #b1d9e0 30%, #96cdda 40%, #77bfd5 50%, #55b1d1 60%, #2ea4ce 70%, #0097cb 80%, #008bc9 90%, #0080c7 100%);;
+	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h1 {
+	text-shadow: 1px 1px 4px;
+}
+
+.colum-1 {
+	background: #FFFF;
+	margin: 30px;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+  	text-align: left;
+	box-shadow: 1px 5px 15px;
+}
+
+.img {
+	text-align: left;
+}
+
+img { 
+	width:200px;
+    height:245px;
+    border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	padding: 15px;
+	margin: 50px;
+	box-shadow: 1px 7px 15px;
+	background-image: radial-gradient(circle at 98.93% 91.06%, #f4f7f7 0, #e0eeef 10%, #cae4e7 20%, #b1d9e0 30%, #96cdda 40%, #77bfd5 50%, #55b1d1 60%, #2ea4ce 70%, #0097cb 80%, #008bc9 90%, #0080c7 100%);;
+	
+}
+
+.inf {
+	padding-left: 50px;
+}
+
+.contact-container {
+	padding-left: 50px; 
+}
+
+.colum-2 {
+	background: #FFFF;
+	margin: 30px;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+  	text-align: left;
+	box-shadow: 1px 5px 15px;
+}
+
+.pro {
+	margin: 30px;
+}
+
+.study {
+	margin: 30px;
+}
+
+.hobbies {
+	margin: 30px;
+}
+
+.FlexBox-1 {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.FlexBox-1 > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.FlexBox-1 > div:first-child {
+	margin-right: 10px;
+}
